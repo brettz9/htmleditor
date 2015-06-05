@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="../node_modules/tinymce/tinymce.min.js"></script>
+    <script src="../plugin.js"></script>
+</head>
+<body>
+Text:
+<textarea>
+&lt;b>Some Bold text&lt;/b>
+</textarea>
+
+<script>
+tinymce.init({
+    selector: 'textarea',
+    plugins: 'codemirrorinline',
+    toolbar: 'codemirrorinline'
+});
+</script>
+
+</body>
+</html>
