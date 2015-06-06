@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    
+<link rel="stylesheet" type="text/css" href="http://dreamchain.com/static/split-pane/split-pane.css" />
+<link rel="stylesheet" type="text/css" href="http://dreamchain.com/static/split-pane/pretty-split-pane.css" />
+
+<script src="http://dreamchain.com/static/split-pane/jquery-1.8.2.js"></script>
+<script src="http://dreamchain.com/static/split-pane/split-pane.js"></script>
+
+
+<style>
+
+	html, body {
+		height: 100%;
+		min-height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	#top-component {
+		height: 10em;
+		min-height: 5em;
+	}
+
+	#my-divider {
+		top: 10em;
+		height: 5px;
+	}
+
+	#bottom-component {
+		top: 10em;
+		min-height: 8em;
+		margin-top: 5px;
+	}
+	
+</style>
+
+</head>
+<body>
+Text:
+
+<div class="split-pane-frame"><!-- This div is added for styling purposes only. It's not part of the split-pane plugin. -->
+	<div class="split-pane fixed-top">
+		<div class="split-pane-component" id="top-component">
+			<div class="decoration"><!-- This div is added for styling purposes only. It's not part of the split-pane plugin. -->
+				<p>
+					This split pane component is fixed: when re-sizing the browser window, it will
+					keep the same height.
+				</p>
+				<p>
+					You can, however, re-size this component by dragging the divider, and it will adjust if
+					the bottom component reaches it's <code>min-height</code> (<code>8em</code> in this example).
+				</p>
+			</div>
+		</div>
+		<div class="split-pane-divider" id="my-divider"></div>
+		<div class="split-pane-component" id="bottom-component">
+			<div class="decoration"><!-- This div is added for styling purposes only. It's not part of the split-pane plugin. -->
+				<p>This split pane component is dynamic: when re-sizing the browser window, height will adjust.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+/*global CodeMirror*/
+
+document.title = 'HTML Editor';
+
+$('div.split-pane').splitPane();
+
+
+</script>
+
+</body>
+</html>
