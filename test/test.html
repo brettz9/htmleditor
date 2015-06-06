@@ -5,19 +5,42 @@
     <title></title>
     <script src="../node_modules/tinymce/tinymce.min.js"></script>
     <script src="../plugin.js"></script>
+    <style>
+
+    body {
+        margin: 0;
+    }
+
+    .CodeMirror {
+        height: 100%;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .CodeMirror-activeline-background {
+        background: #e8f2ff !important;
+    }
+
+    </style>
 </head>
 <body>
 Text:
-<textarea>
+
+<textarea id="a">
+&lt;b>Some other bold text&lt;/b>
+</textarea>
+<textarea id="b">
 &lt;b>Some Bold text&lt;/b>
 </textarea>
-
+abc
 <script>
+
 tinymce.init({
-    selector: 'textarea',
+    selector: '#b',
     plugins: 'codemirrorinline',
     toolbar: 'codemirrorinline'
 });
+// tinymce.settings.codemirrorInlinePath = '../node_modules/codemirror/';
 </script>
 
 </body>
