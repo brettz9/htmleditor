@@ -2,7 +2,7 @@
 
 HTML Editor based on CodeMirror's mixed mode syntax with
 split-screen preview (splitter courtesy of
-[split-pane](https://github.com/shagstrom/split-pane).
+[split-pane](https://github.com/shagstrom/split-pane)).
 
 # Possible to-dos
 1. WebAppFind support
