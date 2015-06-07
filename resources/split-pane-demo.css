@@ -1,0 +1,23 @@
+/*From: http://dreamchain.com/static/split-pane/fixed-top.html */
+html, body {
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#top-component {
+    height: 10em;
+    min-height: 5em;
+}
+
+#my-divider {
+    top: 10em;
+    height: 5px;
+}
+
+#bottom-component {
+    top: 10em;
+    min-height: 8em;
+    margin-top: 5px;
+}
