@@ -7,6 +7,7 @@ document.title = 'HTML Editor';
 
 var pane = $('div.split-pane').children('.split-pane-divider');
 
+// Remove if https://github.com/shagstrom/split-pane/issues/14 implemented.
 function triggerSplitterDrop (vDrop) {
     var offset = pane.offset();
     var ev = {
