@@ -10,7 +10,7 @@
     "html",
     "editor"
   ],
-  "dependencies": {
+  "devDependencies": {
       "codemirror": "5.x",
       "split-pane": "0.4.x"
   },
