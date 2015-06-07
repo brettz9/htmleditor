@@ -1,7 +1,8 @@
-/*global CodeMirror, $, fetch, requestAnimationFrame*/
+/*global CodeMirror, $, requestAnimationFrame */
 /*jslint vars:true */
 
 (function () {'use strict';
+
 
 document.title = 'HTML Editor';
 

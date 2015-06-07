@@ -1,1 +1,3 @@
 bower_components
+webappfind/*
+!/webappfind/filetypes.json

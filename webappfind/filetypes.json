@@ -1,0 +1,14 @@
+{
+    "fileMatches": [
+        ["\\.html", "htmltype"]
+    ],
+    "hierarchy": {
+        "htmltype": ["txt"]
+    },
+    "defaultHandlers": {
+        "htmltype": {
+            "view": "http://brett-zamir.me/webappfind/htmleditor/?params=%s",
+            "edit": "http://brett-zamir.me/webappfind/htmleditor/?params=%s"
+        }
+    }
+}
