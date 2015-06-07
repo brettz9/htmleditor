@@ -53,7 +53,9 @@ function webAppFindSaveToDisk (e) {
     window.postMessage([saveMessage, pathID, editor.getData()], window.location.origin);
 }
 
-// EXPORT & ADD EVENTS
+// EXPORT & ADD EVENTS/ELEMENTS
+
+$('.split-pane-frame').prepend('<input type="button" value="Save" class="webAppFindSaveButton" style="display:none;" />');
 
 window.webAppFindSaveToDisk = webAppFindSaveToDisk;
 listenForMessages();
