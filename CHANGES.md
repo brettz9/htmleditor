@@ -1,3 +1,7 @@
+#0.3.0
+- Make syntax-highlighting area use a dynamically resizing height
+- Add a toolbar, currently with theme changing only (which gets remembered unless overridden again by the menu or set in the URL via a "theme" param)
+
 #0.2.0
 - Add AppCache manifest
 
