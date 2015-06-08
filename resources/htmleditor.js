@@ -45,7 +45,8 @@ texteditor.value = [
     '</script>',
     '',
     '</body>',
-    '</html>'
+    '</html>',
+    ''
 ].join('\n');
 
 var ed = CodeMirror.fromTextArea(texteditor, {

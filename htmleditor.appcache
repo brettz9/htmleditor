@@ -1,0 +1,24 @@
+CACHE MANIFEST
+index.html
+
+bower_components/split-pane/split-pane.css
+resources/pretty-split-pane.css
+resources/split-pane-demo.css
+
+bower_components/jquery/dist/jquery.min.js
+bower_components/split-pane/split-pane.js
+
+bower_components/codemirror/lib/codemirror.css
+
+bower_components/codemirror/lib/codemirror.js
+bower_components/codemirror/addon/edit/matchbrackets.js
+bower_components/codemirror/mode/xml/xml.js
+bower_components/codemirror/mode/javascript/javascript.js
+bower_components/codemirror/mode/css/css.js
+bower_components/codemirror/mode/htmlmixed/htmlmixed.js
+bower_components/codemirror/addon/search/searchcursor.js
+bower_components/codemirror/addon/search/search.js
+bower_components/codemirror/addon/selection/active-line.js
+
+resources/webappfind.js
+resources/htmleditor.js
