@@ -1,4 +1,6 @@
 CACHE MANIFEST
+# 2015-06-07
+
 index.html
 
 bower_components/split-pane/split-pane.css
@@ -19,6 +21,43 @@ bower_components/codemirror/mode/htmlmixed/htmlmixed.js
 bower_components/codemirror/addon/search/searchcursor.js
 bower_components/codemirror/addon/search/search.js
 bower_components/codemirror/addon/selection/active-line.js
+
+bower_components/codemirror/theme/3024-day.css
+bower_components/codemirror/theme/3024-night.css
+bower_components/codemirror/theme/ambiance.css
+bower_components/codemirror/theme/base16-dark.css
+bower_components/codemirror/theme/base16-light.css
+bower_components/codemirror/theme/blackboard.css
+bower_components/codemirror/theme/cobalt.css
+bower_components/codemirror/theme/colorforth.css
+bower_components/codemirror/theme/eclipse.css
+bower_components/codemirror/theme/elegant.css
+bower_components/codemirror/theme/erlang-dark.css
+bower_components/codemirror/theme/lesser-dark.css
+bower_components/codemirror/theme/liquibyte.css
+bower_components/codemirror/theme/mbo.css
+bower_components/codemirror/theme/mdn-like.css
+bower_components/codemirror/theme/midnight.css
+bower_components/codemirror/theme/monokai.css
+bower_components/codemirror/theme/neat.css
+bower_components/codemirror/theme/neo.css
+bower_components/codemirror/theme/night.css
+bower_components/codemirror/theme/paraiso-dark.css
+bower_components/codemirror/theme/paraiso-light.css
+bower_components/codemirror/theme/pastel-on-dark.css
+bower_components/codemirror/theme/rubyblue.css
+bower_components/codemirror/theme/solarized.css
+bower_components/codemirror/theme/the-matrix.css
+bower_components/codemirror/theme/tomorrow-night-bright.css
+bower_components/codemirror/theme/tomorrow-night-eighties.css
+bower_components/codemirror/theme/ttcn.css
+bower_components/codemirror/theme/twilight.css
+bower_components/codemirror/theme/vibrant-ink.css
+bower_components/codemirror/theme/xq-dark.css
+bower_components/codemirror/theme/xq-light.css
+bower_components/codemirror/theme/zenburn.css
+
+resources/styles.css
 
 resources/webappfind.js
 resources/htmleditor.js

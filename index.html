@@ -6,15 +6,15 @@
     <!-- Wanted to load all of these dynamically for modular clarity, but fetch() won't work with file:// -->
 
     <!-- Split-Pane dependencies -->
-    <link rel="stylesheet" type="text/css" href="bower_components/split-pane/split-pane.css" />
-    <link rel="stylesheet" type="text/css" href="resources/pretty-split-pane.css" />
-    <link rel="stylesheet" type="text/css" href="resources/split-pane-demo.css" />
+    <link rel="stylesheet" href="bower_components/split-pane/split-pane.css" />
+    <link rel="stylesheet" href="resources/pretty-split-pane.css" />
+    <link rel="stylesheet" href="resources/split-pane-demo.css" />
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/split-pane/split-pane.js"></script>
 
     <!-- CodeMirror dependencies -->
-    <link rel="stylesheet" type="text/css" href="bower_components/codemirror/lib/codemirror.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/lib/codemirror.css" />
 
     <script src="bower_components/codemirror/lib/codemirror.js"></script>
     <script src="bower_components/codemirror/addon/edit/matchbrackets.js"></script>
@@ -26,10 +26,48 @@
     <script src="bower_components/codemirror/addon/search/search.js"></script>
     <script src="bower_components/codemirror/addon/selection/active-line.js"></script>
 
+    
+    <link rel="stylesheet" href="bower_components/codemirror/theme/3024-day.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/3024-night.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/ambiance.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/base16-dark.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/base16-light.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/blackboard.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/cobalt.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/colorforth.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/eclipse.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/elegant.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/erlang-dark.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/lesser-dark.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/liquibyte.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/mbo.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/mdn-like.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/midnight.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/monokai.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/neat.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/neo.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/night.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/paraiso-dark.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/paraiso-light.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/pastel-on-dark.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/rubyblue.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/solarized.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/the-matrix.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/tomorrow-night-bright.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/tomorrow-night-eighties.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/ttcn.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/twilight.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/vibrant-ink.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/xq-dark.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/xq-light.css" />
+    <link rel="stylesheet" href="bower_components/codemirror/theme/zenburn.css" />
+    
+    <link rel="stylesheet" href="resources/styles.css" />
 </head>
 <body>
 
 <div class="split-pane-frame"><!-- This div is added for styling purposes only. It's not part of the split-pane plugin. -->
+    <div id="toolbar"></div>
 	<div class="split-pane fixed-top">
 		<div class="split-pane-component" id="top-component">
 			<div class="decoration"><!-- This div is added for styling purposes only. It's not part of the split-pane plugin. -->

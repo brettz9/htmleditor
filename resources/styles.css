@@ -1,0 +1,10 @@
+body {
+    font-family: inherit !important;
+    font-size: inherit !important;
+}
+#toolbar {
+    line-height: 1.8em;
+}
+.CodeMirror {
+    height: auto;
+}
