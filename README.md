@@ -12,6 +12,9 @@ in new tabs, see
 
 `bower install htmleditor`
 
+# To-dos
+1. Add theme support from CodeMirror
+
 # Possible to-dos
 1. Remove WebAppFind support if WAF can't be fixed for latest FF
 1. Consider other features to apply from CodeMirror
