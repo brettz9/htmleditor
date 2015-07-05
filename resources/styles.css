@@ -8,3 +8,9 @@ body {
 .CodeMirror {
     height: auto;
 }
+
+#preview {
+    background-color: white;
+    background-image: none;
+    width: 99%;
+}

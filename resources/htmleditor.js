@@ -55,6 +55,11 @@ var ed = CodeMirror.fromTextArea(texteditor, {
     mode: 'htmlmixed',
     viewportMargin: Infinity
 });
+
+function resetFrameHeight () {
+    $('#preview')[0].style.height = ($('.split-pane').innerHeight() - $('#bottom-component').offset().top - 10) + 'px';
+}
+
 function setPreview () {
     // document.querySelector('#preview').innerHTML = ed.getValue(); // innerHTML won't execute scripts, so we use jQuery
     requestAnimationFrame(function () {
@@ -65,12 +70,16 @@ function setPreview () {
 setPreview();
 ed.on('change', setPreview);
 // ed.setSize(200, 200);
+requestAnimationFrame(function () {
+    resetFrameHeight();
+});
 
 // Trigger events needed to push down the splitter!
 var verticalDrop = parseFloat(localStorage.getItem('splitterTop')) || 0;
 triggerSplitterDrop(verticalDrop);
 
 $('div.split-pane').mouseup(function () {
+    resetFrameHeight();
     localStorage.setItem('splitterTop', pane.offset().top);
 });
 
