@@ -58,7 +58,8 @@ var ed = CodeMirror.fromTextArea(texteditor, {
 function setPreview () {
     // document.querySelector('#preview').innerHTML = ed.getValue(); // innerHTML won't execute scripts, so we use jQuery
     requestAnimationFrame(function () {
-        $('#preview').html(ed.getValue());
+        // $('#preview').html(ed.getValue());
+        $('#preview')[0].srcdoc = ed.getValue();
     });
 }
 setPreview();
