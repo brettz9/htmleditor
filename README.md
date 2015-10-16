@@ -13,6 +13,10 @@ in new tabs, see
 `bower install htmleditor`
 
 # To-dos
+1. Submit add-on to AMO for full review after:
+    1. Avoid `innerHTML` in CodeMirror component.
+    2. Avoid vertical scrolling as seen by AMO editor (page height 24 pixels higher than available window space)
+    3. Window resizing problems: preview area resizes if the window becomes smaller but stays the same when it becomes larger.
 1. Add theme support from CodeMirror
 
 # Possible to-dos
