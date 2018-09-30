@@ -1,6 +1,6 @@
 /*globals $ */
 /*jslint vars:true*/
-var webAppFindSaveButton, webAppFindSaveButton;
+var webAppFindSaveButton;
 (function () {'use strict';
 
 var pathID, saveMessage = 'webapp-save', excludedMessages = [saveMessage], saveButton = webAppFindSaveButton || $('.webAppFindSaveButton')[0]; // Todo: Allow for adding events to multiple webAppFindSaveButtons?
@@ -34,7 +34,7 @@ function listenForMessages() {
                 setTimeout(function () {
                     saveButton.style.backgroundColor = backgroundColor;
                 }, 120);
-                
+
                 // alert('save complete for pathID ' + e.data[1] + '!');
                 break;
             default:

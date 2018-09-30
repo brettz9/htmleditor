@@ -13,8 +13,10 @@ in new tabs, see
 `bower install htmleditor`
 
 # To-dos
-1. Change from AppCache to Service Worker
+
 1. Bower -> npm
+1. Update WebAppFind API
+1. Change from AppCache to Service Worker
 1. Submit add-on to AMO for full review after:
     1. Avoid `innerHTML` in CodeMirror component.
     2. Avoid vertical scrolling as seen by AMO editor (page height 24 pixels higher than available window space)
@@ -22,6 +24,7 @@ in new tabs, see
 1. Add theme support from CodeMirror
 
 # Possible to-dos
+
 1. Remove WebAppFind support if WAF can't be fixed for latest FF
 1. Consider other features to apply from CodeMirror
 1. Allow query string modification of defaults
